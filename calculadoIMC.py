@@ -28,7 +28,7 @@ def calcular():
 
     if imc <= 18.4:
         l_resultado_texto['text'] = "O seu IMC é : magresa"
-    elif imc >=25:
+    elif imc >=25 and imc <30:
         l_resultado_texto['text'] = "O seu IMC é : sobre peso"
     elif imc >= 30:
         l_resultado_texto['text'] = "O seu IMC é : obesidade"
